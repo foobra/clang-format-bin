@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.homepage                  = 'https://github.com/foobra/clang-format-bin'
   s.license                   = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
   s.author                    = "iOS"
+  s.source                    = { :http => 'https://github.com/foobra/clang-format-bin/releases/download/5.0.0/clang-format-5.0.0.zip' }
   s.source                    = { :http => '' }
   s.preserve_paths            = "clang-format"
   s.ios.deployment_target     = '8.0'
